@@ -1,0 +1,37 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace LearnASPNET
+{
+    public partial class WebForm14 : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void ImageMap1_Click(object sender, ImageMapEventArgs e)
+        {
+            if (e.PostBackValue=="A")
+            {
+                Response.Write("A");
+            }
+            else if (e.PostBackValue == "B")
+            {
+                Response.Write("B");
+            }
+            else if (e.PostBackValue == "C")
+            {
+                Response.Write("C");
+            }
+            else if (e.PostBackValue == "D")
+            {
+                Response.Write("D");
+            }
+        }
+    }
+}

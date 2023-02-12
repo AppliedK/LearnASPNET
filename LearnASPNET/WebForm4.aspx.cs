@@ -11,7 +11,16 @@ namespace LearnASPNET
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+        }
 
+        protected void FirstButton_Click(object sender, EventArgs e)
+        {
+            Response.Write(sender.GetType().Name);
+        }
+
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Write("X = "+e.X.ToString() + " Y = " + e.Y.ToString());
         }
     }
 }

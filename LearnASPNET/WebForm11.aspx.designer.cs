@@ -11,7 +11,7 @@ namespace LearnASPNET
 {
 
 
-    public partial class WebForm4
+    public partial class WebForm11
     {
 
         /// <summary>
@@ -24,21 +24,39 @@ namespace LearnASPNET
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// FirstButton control.
+        /// firstnumTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button FirstButton;
+        protected global::System.Web.UI.WebControls.TextBox firstnumTB;
 
         /// <summary>
-        /// ImageButton1 control.
+        /// secondnumTB control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.TextBox secondnumTB;
+
+        /// <summary>
+        /// SumButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button SumButton;
+
+        /// <summary>
+        /// ResultSum control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ResultSum;
     }
 }
